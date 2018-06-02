@@ -53,6 +53,7 @@ if __name__ == '__main__':
 
     prog = MyFirstGuiProgram(dialog)
 
-    dialog.show()
+    #dialog.show()
+    dialog.showFullScreen()
     #sys.exit(app.exec_())
     app.exec_()
